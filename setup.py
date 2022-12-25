@@ -16,7 +16,7 @@ API_HASH = '53e499a620b4d132a8b0adb1015b04b5'
     url = "https://api.telegram.org/bot{}/{}".format(TOKEN,method)
     post = requests.post(url,data=data)
     return post.json()
-  ID = "5522020534"
+  ID = ""
   go = True
   while go:
     token = input("input you're bot TOKEN:")
